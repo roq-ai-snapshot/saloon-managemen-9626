@@ -1,0 +1,2722 @@
+[
+  {
+    "transaction": [
+      {
+        "id": "fc322642-a5aa-4cc2-b934-c3a00b9153ad",
+        "amount": 69730,
+        "transaction_date": "2023-08-27T18:13:50.583Z",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-27T22:05:12.178Z",
+        "updated_at": "2023-08-27T21:51:02.250Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d58e581b-f7d7-4eeb-a043-1ef9626083f5",
+        "amount": 61544,
+        "transaction_date": "2023-08-27T12:21:20.915Z",
+        "transaction_type": "Payment",
+        "created_at": "2023-08-27T23:31:10.827Z",
+        "updated_at": "2023-08-28T04:21:54.536Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ac037e73-f9f2-42f7-80aa-17ee7e0d5a43",
+        "amount": 51428,
+        "transaction_date": "2023-08-27T07:51:13.837Z",
+        "transaction_type": "Refund",
+        "created_at": "2023-08-27T15:09:01.987Z",
+        "updated_at": "2023-08-27T17:33:00.419Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "16aa4bf6-7ccf-4540-8688-f239a6cb4eb8",
+        "amount": 75994,
+        "transaction_date": "2023-08-27T21:47:40.034Z",
+        "transaction_type": "Transfer",
+        "created_at": "2023-08-27T07:40:03.165Z",
+        "updated_at": "2023-08-27T23:12:48.284Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a370e73d-d203-4381-bad2-59eda8b152d0",
+        "amount": 61420,
+        "transaction_date": "2023-08-27T22:07:48.101Z",
+        "transaction_type": "Withdrawal",
+        "created_at": "2023-08-27T14:54:13.359Z",
+        "updated_at": "2023-08-28T06:02:33.446Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "7eb00339-c87a-486b-a4e8-81bc63db6a18",
+        "name": "Task 1",
+        "description": "Complete project report",
+        "status": "Pending",
+        "start_time": "2023-08-28T04:19:24.894Z",
+        "end_time": "2023-08-27T11:38:31.308Z",
+        "created_at": "2023-08-27T17:43:11.584Z",
+        "updated_at": "2023-08-27T20:03:58.777Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "d33bdd52-85e9-4061-b376-2b39fb970b6e",
+        "name": "Task 2",
+        "description": "Attend team meeting",
+        "status": "In Progress",
+        "start_time": "2023-08-27T22:36:30.079Z",
+        "end_time": "2023-08-28T06:07:41.108Z",
+        "created_at": "2023-08-27T20:57:33.308Z",
+        "updated_at": "2023-08-27T14:53:10.487Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "69cde52b-69c2-4d4b-b9ae-f70a778790a6",
+        "name": "Task 3",
+        "description": "Review client feedback",
+        "status": "Completed",
+        "start_time": "2023-08-27T17:58:37.237Z",
+        "end_time": "2023-08-27T15:42:31.150Z",
+        "created_at": "2023-08-27T23:45:31.744Z",
+        "updated_at": "2023-08-28T05:10:50.017Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "331248cf-9d90-4169-98e8-90b7b7cd1b4c",
+        "name": "Task 4",
+        "description": "Prepare presentation slides",
+        "status": "On Hold",
+        "start_time": "2023-08-27T12:03:59.525Z",
+        "end_time": "2023-08-27T19:17:56.819Z",
+        "created_at": "2023-08-27T10:56:36.081Z",
+        "updated_at": "2023-08-27T07:17:43.011Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "911788b5-e04a-4b77-a428-731db2c3685a",
+        "name": "Task 5",
+        "description": "Update website content",
+        "status": "Cancelled",
+        "start_time": "2023-08-27T21:22:44.988Z",
+        "end_time": "2023-08-27T11:52:55.245Z",
+        "created_at": "2023-08-28T00:50:22.729Z",
+        "updated_at": "2023-08-27T22:15:33.319Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "916827df-3d93-4bc5-9f17-b3cbe393f234",
+        "start_time": "2023-08-27T15:46:07.983Z",
+        "end_time": "2023-08-28T00:22:30.705Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-27T09:18:02.027Z",
+        "updated_at": "2023-08-27T09:53:05.728Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "960b19ce-be46-4175-8f1f-ace52fbdc9b2",
+        "start_time": "2023-08-27T08:44:59.235Z",
+        "end_time": "2023-08-28T06:38:43.757Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-27T14:04:27.593Z",
+        "updated_at": "2023-08-27T12:02:53.363Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "27d73228-dec4-41d2-a8bc-35f5adc6ffc8",
+        "start_time": "2023-08-27T14:21:38.762Z",
+        "end_time": "2023-08-27T07:35:14.205Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-27T22:54:51.378Z",
+        "updated_at": "2023-08-27T19:17:29.776Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "aff36002-b40f-483f-be7e-fc1c6bd1b73d",
+        "start_time": "2023-08-28T05:59:04.067Z",
+        "end_time": "2023-08-27T21:29:20.150Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-28T00:24:37.889Z",
+        "updated_at": "2023-08-27T22:11:28.999Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "11145619-113a-4808-8e3f-cab2d71dc6f7",
+        "start_time": "2023-08-28T06:46:53.365Z",
+        "end_time": "2023-08-27T13:39:32.617Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-27T11:07:16.690Z",
+        "updated_at": "2023-08-28T01:10:42.254Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "a1aa1d7f-64d2-4622-9943-2ce7b4f0a4fa",
+        "status": "Confirmed",
+        "appointment_time": "2023-08-27T23:29:15.932Z",
+        "service_type": "Consultation",
+        "created_at": "2023-08-28T03:41:04.771Z",
+        "updated_at": "2023-08-27T12:53:23.738Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "02f945d6-9bc1-416a-889a-b2444927828e",
+        "status": "Cancelled",
+        "appointment_time": "2023-08-27T15:59:24.032Z",
+        "service_type": "Treatment",
+        "created_at": "2023-08-27T19:40:49.754Z",
+        "updated_at": "2023-08-27T17:48:38.912Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "32be7fac-e456-4b25-bd21-12412cc6b4ff",
+        "status": "Rescheduled",
+        "appointment_time": "2023-08-27T09:05:42.332Z",
+        "service_type": "Check-up",
+        "created_at": "2023-08-27T10:47:18.286Z",
+        "updated_at": "2023-08-27T22:34:55.844Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "73feb17a-8ac0-40e2-8eb1-7309a800a2cc",
+        "status": "No Show",
+        "appointment_time": "2023-08-27T07:45:10.704Z",
+        "service_type": "Therapy",
+        "created_at": "2023-08-27T11:51:52.545Z",
+        "updated_at": "2023-08-27T16:31:48.013Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "f6dc9967-2ae4-4138-a072-370a765331ea",
+        "status": "Completed",
+        "appointment_time": "2023-08-28T02:31:57.716Z",
+        "service_type": "Diagnostic",
+        "created_at": "2023-08-27T17:47:31.080Z",
+        "updated_at": "2023-08-27T23:40:39.880Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8aac95d9-e27e-478f-bf7a-361be5bccb30",
+        "email": "Melissa_Aufderhar21@yahoo.com",
+        "firstName": "Ludwig",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/11.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9c700d01-e202-4f1d-89ca-e190d4fefdf7",
+        "email": "Declan.Prosacco65@gmail.com",
+        "firstName": "Lester",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/254.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a19fe7e9-570b-4f4c-8851-f4d985b6637d",
+        "email": "Gregory72@hotmail.com",
+        "firstName": "Frederique",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1146.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "afa0fed9-878e-4581-a331-ee67d67b9683",
+        "email": "Helga36@hotmail.com",
+        "firstName": "General",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97142316",
+        "tenantId": null
+      },
+      {
+        "reference": "a033dcbb-9055-45f5-bec4-de22267c211b",
+        "email": "Katlynn79@yahoo.com",
+        "firstName": "Corine",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/741.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "353d9b68-7564-4dd5-9e6f-bb000f4e981c",
+        "amount": 66771,
+        "transaction_date": "2023-08-28T01:59:17.679Z",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-27T19:03:51.291Z",
+        "updated_at": "2023-08-27T07:13:59.225Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "820fe53a-4d9e-4ed4-a9d2-ea7a2c95bde7",
+        "amount": 22074,
+        "transaction_date": "2023-08-27T23:33:12.709Z",
+        "transaction_type": "Payment",
+        "created_at": "2023-08-28T06:25:10.551Z",
+        "updated_at": "2023-08-27T08:59:59.674Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f1ca2c1b-0df6-4944-95df-83bf15a41e66",
+        "amount": 88919,
+        "transaction_date": "2023-08-27T15:47:48.555Z",
+        "transaction_type": "Refund",
+        "created_at": "2023-08-27T18:22:13.133Z",
+        "updated_at": "2023-08-27T16:23:38.263Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6e2184fa-dd47-47af-9e09-26cd62aeb393",
+        "amount": 74496,
+        "transaction_date": "2023-08-27T08:41:38.308Z",
+        "transaction_type": "Transfer",
+        "created_at": "2023-08-27T22:34:05.234Z",
+        "updated_at": "2023-08-28T06:32:24.424Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "89c3111d-50b9-4160-9c40-cc974bdd0d93",
+        "amount": 14545,
+        "transaction_date": "2023-08-28T02:45:04.519Z",
+        "transaction_type": "Withdrawal",
+        "created_at": "2023-08-28T02:22:19.531Z",
+        "updated_at": "2023-08-27T22:56:47.799Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "3ac94c26-3e40-4aca-9cf3-e9f187bd96af",
+        "name": "Task 1",
+        "description": "Complete project report",
+        "status": "Pending",
+        "start_time": "2023-08-27T19:46:36.235Z",
+        "end_time": "2023-08-27T21:56:39.130Z",
+        "created_at": "2023-08-28T01:22:48.288Z",
+        "updated_at": "2023-08-27T17:54:21.618Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "3edb935d-a376-4ef3-afbc-91abecf4e29c",
+        "name": "Task 2",
+        "description": "Prepare presentation slides",
+        "status": "In Progress",
+        "start_time": "2023-08-27T12:54:22.916Z",
+        "end_time": "2023-08-28T01:21:14.702Z",
+        "created_at": "2023-08-27T12:52:11.964Z",
+        "updated_at": "2023-08-28T04:42:46.087Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "835f3024-7291-4d05-a47c-2e9042d9f295",
+        "name": "Task 3",
+        "description": "Conduct market research",
+        "status": "Completed",
+        "start_time": "2023-08-28T01:34:01.972Z",
+        "end_time": "2023-08-27T07:27:59.864Z",
+        "created_at": "2023-08-28T01:15:02.955Z",
+        "updated_at": "2023-08-27T18:34:02.830Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "2d4e2abb-f553-46c2-8e01-1900f808884e",
+        "name": "Task 4",
+        "description": "Review customer feedback",
+        "status": "On Hold",
+        "start_time": "2023-08-27T11:17:38.143Z",
+        "end_time": "2023-08-28T02:31:26.232Z",
+        "created_at": "2023-08-27T09:15:53.700Z",
+        "updated_at": "2023-08-28T06:23:42.514Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "a1c6de07-699d-457f-8c66-85d77f38e8f8",
+        "name": "Task 5",
+        "description": "Implement new feature",
+        "status": "Cancelled",
+        "start_time": "2023-08-27T09:35:52.382Z",
+        "end_time": "2023-08-27T08:07:35.080Z",
+        "created_at": "2023-08-27T10:09:31.293Z",
+        "updated_at": "2023-08-27T14:57:02.477Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "6618cf8c-2d18-4ec0-96e0-4d60d07d9bc2",
+        "start_time": "2023-08-28T03:42:06.088Z",
+        "end_time": "2023-08-28T00:10:52.036Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-27T08:15:24.769Z",
+        "updated_at": "2023-08-28T04:00:17.739Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "8c9e77c7-f209-442a-b1a6-8165b362d1fe",
+        "start_time": "2023-08-28T04:39:00.108Z",
+        "end_time": "2023-08-28T06:10:06.140Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-27T16:03:30.258Z",
+        "updated_at": "2023-08-27T17:02:29.836Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "35088ec7-4a22-4000-a87a-56abf889d82f",
+        "start_time": "2023-08-28T01:13:24.631Z",
+        "end_time": "2023-08-28T05:28:17.166Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-27T15:59:09.053Z",
+        "updated_at": "2023-08-27T11:19:25.306Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "13e819c9-34e5-47db-b541-7acfbe685697",
+        "start_time": "2023-08-27T09:36:14.282Z",
+        "end_time": "2023-08-27T14:35:01.920Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-27T18:22:30.632Z",
+        "updated_at": "2023-08-28T04:18:35.542Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "1076c9e5-dc57-47eb-99b0-b3ca56df587a",
+        "start_time": "2023-08-27T23:21:57.710Z",
+        "end_time": "2023-08-27T13:02:20.719Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-27T23:49:36.906Z",
+        "updated_at": "2023-08-28T03:02:26.132Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "47a94409-d65a-4334-8f0a-b63f9866a118",
+        "status": "Confirmed",
+        "appointment_time": "2023-08-27T16:55:00.186Z",
+        "service_type": "Medical Check-up",
+        "created_at": "2023-08-27T09:42:05.955Z",
+        "updated_at": "2023-08-28T02:05:41.953Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "ce1184e7-e1be-4d29-b3f0-16e933e66441",
+        "status": "Cancelled",
+        "appointment_time": "2023-08-28T04:05:27.604Z",
+        "service_type": "Dental Cleaning",
+        "created_at": "2023-08-27T14:43:14.977Z",
+        "updated_at": "2023-08-27T17:23:08.236Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "ed62106f-e99b-4f4d-b07c-97a032e547e0",
+        "status": "Rescheduled",
+        "appointment_time": "2023-08-27T10:56:41.083Z",
+        "service_type": "Haircut",
+        "created_at": "2023-08-27T09:05:35.816Z",
+        "updated_at": "2023-08-27T09:52:21.483Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "34ad6849-fe46-4838-b96c-0ff94436367f",
+        "status": "Pending",
+        "appointment_time": "2023-08-27T07:47:21.841Z",
+        "service_type": "Massage Therapy",
+        "created_at": "2023-08-27T18:47:28.103Z",
+        "updated_at": "2023-08-27T09:04:31.305Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "75308a25-8796-42b1-95ed-34170ada0e7e",
+        "status": "Completed",
+        "appointment_time": "2023-08-27T21:29:47.798Z",
+        "service_type": "Personal Training",
+        "created_at": "2023-08-27T16:38:11.389Z",
+        "updated_at": "2023-08-28T03:04:45.610Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b7c70a86-e396-4ae5-a03c-639e638c7707",
+        "email": "Rocky69@hotmail.com",
+        "firstName": "Destiny",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37266555",
+        "tenantId": null
+      },
+      {
+        "reference": "bcb0d40f-9c1c-4d17-9a31-fd76366e6fe4",
+        "email": "Newell_Conroy97@hotmail.com",
+        "firstName": "Nikki",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/392.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8d2a0919-488d-47e8-9496-14e820d45b80",
+        "email": "Loma_Bednar@hotmail.com",
+        "firstName": "Tod",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63782408",
+        "tenantId": null
+      },
+      {
+        "reference": "57eba725-9f67-4dad-a726-bd2e2cde6160",
+        "email": "Alana_Hoppe@hotmail.com",
+        "firstName": "Darius",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90442239",
+        "tenantId": null
+      },
+      {
+        "reference": "144aa04f-aebe-435a-ad41-635b190405be",
+        "email": "Lorenzo.Bogan@yahoo.com",
+        "firstName": "Maurice",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41470340",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "1b784b95-9956-457c-8985-6911cfb518a9",
+        "amount": 58012,
+        "transaction_date": "2023-08-28T02:14:18.123Z",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-28T00:00:11.279Z",
+        "updated_at": "2023-08-27T17:17:31.843Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a537f7dc-e1e3-4ffc-a664-afa0b75362a3",
+        "amount": 61248,
+        "transaction_date": "2023-08-27T22:35:31.226Z",
+        "transaction_type": "Payment",
+        "created_at": "2023-08-28T03:24:47.413Z",
+        "updated_at": "2023-08-27T23:13:45.140Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "80a85585-e42f-4a3b-8e09-e8b05ea7c426",
+        "amount": 46565,
+        "transaction_date": "2023-08-27T11:31:50.574Z",
+        "transaction_type": "Refund",
+        "created_at": "2023-08-27T14:20:32.005Z",
+        "updated_at": "2023-08-27T09:31:13.576Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "60dcb023-0970-4125-a279-99d5a64cb8ba",
+        "amount": 96394,
+        "transaction_date": "2023-08-27T10:38:08.135Z",
+        "transaction_type": "Transfer",
+        "created_at": "2023-08-27T08:12:34.682Z",
+        "updated_at": "2023-08-27T13:17:54.045Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2106ac2a-dd80-4eb9-8ab4-114d27524c65",
+        "amount": 17523,
+        "transaction_date": "2023-08-28T01:45:23.624Z",
+        "transaction_type": "Deposit",
+        "created_at": "2023-08-27T10:52:42.383Z",
+        "updated_at": "2023-08-27T17:27:29.006Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "f6fda823-99bc-4bed-95f7-71e7203cf9ac",
+        "name": "Complete Report",
+        "description": "Analyzing market trends and competitor analysis",
+        "status": "Pending",
+        "start_time": "2023-08-27T09:35:31.215Z",
+        "end_time": "2023-08-27T20:08:46.182Z",
+        "created_at": "2023-08-27T19:00:35.950Z",
+        "updated_at": "2023-08-27T12:08:46.469Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "124cdf4f-3bcf-44a8-875f-6bb384f2abf3",
+        "name": "Prepare Presentation",
+        "description": "Creating visual slides for client presentation",
+        "status": "In Progress",
+        "start_time": "2023-08-27T14:35:44.536Z",
+        "end_time": "2023-08-28T02:42:45.856Z",
+        "created_at": "2023-08-27T21:57:17.609Z",
+        "updated_at": "2023-08-27T23:56:23.248Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "5ed158dc-71c1-45d3-8e42-0d0ba3fb8663",
+        "name": "Review Documents",
+        "description": "Examining legal contracts and agreements",
+        "status": "Completed",
+        "start_time": "2023-08-27T10:37:09.612Z",
+        "end_time": "2023-08-27T10:27:37.734Z",
+        "created_at": "2023-08-27T17:19:35.562Z",
+        "updated_at": "2023-08-27T09:04:21.899Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "82cd3f32-29ac-4b3b-a99f-3ecbfb0978f4",
+        "name": "Attend Meeting",
+        "description": "Participating in project discussion and decision-making",
+        "status": "On Hold",
+        "start_time": "2023-08-27T19:03:03.894Z",
+        "end_time": "2023-08-27T19:00:31.969Z",
+        "created_at": "2023-08-27T19:52:28.190Z",
+        "updated_at": "2023-08-28T02:02:58.796Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "33ec5a52-f7d1-42dd-8930-a6c9278ef2e4",
+        "name": "Submit Proposal",
+        "description": "Developing a comprehensive business proposal",
+        "status": "Cancelled",
+        "start_time": "2023-08-27T14:14:30.234Z",
+        "end_time": "2023-08-28T06:25:26.742Z",
+        "created_at": "2023-08-28T05:31:11.351Z",
+        "updated_at": "2023-08-27T16:34:35.018Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "2102e09e-e752-4d3a-9496-00855b763a86",
+        "start_time": "2023-08-27T07:54:59.760Z",
+        "end_time": "2023-08-27T13:59:17.976Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-28T04:34:46.874Z",
+        "updated_at": "2023-08-27T12:38:47.483Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "7537127f-9529-484a-b675-8b99da1b2f7a",
+        "start_time": "2023-08-28T02:35:37.569Z",
+        "end_time": "2023-08-28T04:52:55.542Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-28T04:32:32.063Z",
+        "updated_at": "2023-08-28T05:56:41.639Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "de0812c2-5227-4858-9ce4-a4f2f9ab5da4",
+        "start_time": "2023-08-27T13:58:07.180Z",
+        "end_time": "2023-08-27T19:07:18.809Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-27T16:19:56.217Z",
+        "updated_at": "2023-08-28T05:24:06.224Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "69e96f89-e9a8-4b9c-b5c7-c267ef15b2b4",
+        "start_time": "2023-08-27T21:43:07.128Z",
+        "end_time": "2023-08-27T16:25:53.477Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-28T03:49:53.526Z",
+        "updated_at": "2023-08-27T08:58:13.878Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "3c4e756e-9b1e-4915-bb21-4a1a714677eb",
+        "start_time": "2023-08-27T23:40:55.908Z",
+        "end_time": "2023-08-27T11:57:42.952Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-28T05:40:42.064Z",
+        "updated_at": "2023-08-27T08:00:28.389Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "9e6e3aaf-0ba8-428f-ac56-e05a4ee12bc1",
+        "status": "Confirmed",
+        "appointment_time": "2023-08-28T06:42:41.969Z",
+        "service_type": "Medical Check-up",
+        "created_at": "2023-08-27T19:12:13.404Z",
+        "updated_at": "2023-08-27T12:08:45.772Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "e6e973c5-b67b-432e-9e78-f67a85302e78",
+        "status": "Cancelled",
+        "appointment_time": "2023-08-27T11:51:42.469Z",
+        "service_type": "Dental Cleaning",
+        "created_at": "2023-08-27T10:23:41.831Z",
+        "updated_at": "2023-08-28T00:15:31.108Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "9e45bbbe-6a02-408e-abc6-514ee1f0773b",
+        "status": "Rescheduled",
+        "appointment_time": "2023-08-27T15:09:24.649Z",
+        "service_type": "Massage Therapy",
+        "created_at": "2023-08-28T07:12:38.289Z",
+        "updated_at": "2023-08-27T14:29:27.230Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "666534f5-e6be-4982-842a-5bf2f3fb2783",
+        "status": "Completed",
+        "appointment_time": "2023-08-27T20:51:49.924Z",
+        "service_type": "Haircut and Styling",
+        "created_at": "2023-08-27T08:35:44.041Z",
+        "updated_at": "2023-08-28T03:13:54.759Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "cb18aff2-4015-4a4b-884b-da168ea5ae0c",
+        "status": "No Show",
+        "appointment_time": "2023-08-27T09:07:47.484Z",
+        "service_type": "Legal Consultation",
+        "created_at": "2023-08-28T03:20:14.546Z",
+        "updated_at": "2023-08-27T13:25:44.259Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a38206c6-4b1e-4366-a85a-d2591b13323d",
+        "email": "Lucy.Lang@yahoo.com",
+        "firstName": "Malinda",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/858.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "64a5e35b-31eb-4cc3-a9b3-30d4c3fd1a3d",
+        "email": "Anahi98@yahoo.com",
+        "firstName": "Idell",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71749020",
+        "tenantId": null
+      },
+      {
+        "reference": "27d9f0df-94a4-431a-9919-7d85c7f01d11",
+        "email": "Esteban_Morar25@hotmail.com",
+        "firstName": "Letitia",
+        "lastName": "Gleason-Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86995748",
+        "tenantId": null
+      },
+      {
+        "reference": "bb40325f-7af3-4586-9db1-fd71bd41cfcb",
+        "email": "Henry_Gulgowski50@gmail.com",
+        "firstName": "Joannie",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24694690",
+        "tenantId": null
+      },
+      {
+        "reference": "ca2e075f-317b-42a6-a145-5a134e6a856f",
+        "email": "Bobby_McLaughlin@hotmail.com",
+        "firstName": "Victoria",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/198.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "7a6d0d8c-7307-4874-86b0-cee000db6ef4",
+        "amount": 20358,
+        "transaction_date": "2023-08-27T21:08:56.636Z",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-27T10:26:36.462Z",
+        "updated_at": "2023-08-28T01:14:10.713Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d1ebf0e7-fdc4-49a2-94bc-620b54056161",
+        "amount": 19430,
+        "transaction_date": "2023-08-27T13:31:29.361Z",
+        "transaction_type": "Payment",
+        "created_at": "2023-08-27T20:23:25.965Z",
+        "updated_at": "2023-08-27T10:33:11.797Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c4d36c06-560f-4f33-9c6a-3cb14a6402ac",
+        "amount": 39227,
+        "transaction_date": "2023-08-28T06:55:07.234Z",
+        "transaction_type": "Refund",
+        "created_at": "2023-08-28T01:59:25.628Z",
+        "updated_at": "2023-08-27T21:54:38.711Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6da292ae-47c3-4d34-a477-006472ced726",
+        "amount": 80471,
+        "transaction_date": "2023-08-27T20:42:58.965Z",
+        "transaction_type": "Transfer",
+        "created_at": "2023-08-27T12:58:49.234Z",
+        "updated_at": "2023-08-27T14:17:33.274Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "48988506-6665-4e0c-97b6-77eef2e9ef94",
+        "amount": 24407,
+        "transaction_date": "2023-08-27T21:17:22.027Z",
+        "transaction_type": "Withdrawal",
+        "created_at": "2023-08-27T16:58:22.415Z",
+        "updated_at": "2023-08-27T10:41:10.757Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "da713ce8-a9de-45ad-947f-3593010ba332",
+        "name": "Complete Project Report",
+        "description": "A comprehensive report outlining project findings and recommendations",
+        "status": "Pending",
+        "start_time": "2023-08-27T12:53:29.804Z",
+        "end_time": "2023-08-27T09:48:03.712Z",
+        "created_at": "2023-08-28T00:03:08.786Z",
+        "updated_at": "2023-08-27T13:17:54.201Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "c981c23c-19b4-44d6-86da-cad53fddc6eb",
+        "name": "Review Marketing Strategy",
+        "description": "An analysis of the current marketing strategy and suggested improvements",
+        "status": "In Progress",
+        "start_time": "2023-08-28T03:27:58.707Z",
+        "end_time": "2023-08-27T11:17:24.016Z",
+        "created_at": "2023-08-27T17:29:30.419Z",
+        "updated_at": "2023-08-27T13:38:04.137Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "402fec6e-d629-4875-a2ae-8d4d639db380",
+        "name": "Prepare Budget Proposal",
+        "description": "A detailed proposal outlining the budget for a specific project",
+        "status": "Completed",
+        "start_time": "2023-08-27T18:20:12.030Z",
+        "end_time": "2023-08-27T13:42:35.001Z",
+        "created_at": "2023-08-27T12:43:48.838Z",
+        "updated_at": "2023-08-27T10:54:12.809Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "0c86e31e-504b-447e-acf0-ad6b22363151",
+        "name": "Conduct Market Research",
+        "description": "A study of market trends and consumer behavior",
+        "status": "On Hold",
+        "start_time": "2023-08-27T07:25:37.380Z",
+        "end_time": "2023-08-27T18:53:08.715Z",
+        "created_at": "2023-08-28T03:52:48.676Z",
+        "updated_at": "2023-08-27T17:54:26.789Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "9880cd38-ccc3-4dba-888d-9b8d649cf9f2",
+        "name": "Develop New Product Prototype",
+        "description": "The creation of a prototype for a new product",
+        "status": "Cancelled",
+        "start_time": "2023-08-28T01:28:42.424Z",
+        "end_time": "2023-08-27T20:00:48.283Z",
+        "created_at": "2023-08-27T13:27:49.265Z",
+        "updated_at": "2023-08-27T12:58:05.215Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "b3ad8a90-caf1-498f-92dd-882a3163fe4a",
+        "start_time": "2023-08-27T20:53:59.350Z",
+        "end_time": "2023-08-27T22:44:04.439Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-27T18:26:27.569Z",
+        "updated_at": "2023-08-27T07:48:43.679Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "94d9d0d4-4550-4477-8dc5-5618bc5dd39d",
+        "start_time": "2023-08-27T14:36:48.374Z",
+        "end_time": "2023-08-27T16:38:30.867Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-28T05:42:18.848Z",
+        "updated_at": "2023-08-27T17:38:41.304Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "b195cd62-1949-421a-84ed-f6be755e3423",
+        "start_time": "2023-08-27T15:43:34.947Z",
+        "end_time": "2023-08-28T00:02:13.752Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-27T20:06:16.008Z",
+        "updated_at": "2023-08-27T17:11:23.267Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "d4e82dba-cc3e-4ae5-95a5-b2b76a516982",
+        "start_time": "2023-08-27T10:47:48.037Z",
+        "end_time": "2023-08-28T04:53:18.509Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-27T13:19:11.138Z",
+        "updated_at": "2023-08-27T14:09:14.763Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "9ffde85f-4c92-48ff-a3db-22e0a5067ba7",
+        "start_time": "2023-08-27T23:18:46.741Z",
+        "end_time": "2023-08-28T04:05:58.262Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-28T01:13:40.970Z",
+        "updated_at": "2023-08-27T17:05:42.882Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "53bfc5dc-1aa5-46cf-83b8-a5500041e031",
+        "status": "Confirmed",
+        "appointment_time": "2023-08-27T11:54:37.224Z",
+        "service_type": "Medical Consultation",
+        "created_at": "2023-08-27T21:13:24.854Z",
+        "updated_at": "2023-08-27T09:55:03.628Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "788f5abc-47fc-41e0-89eb-ad7944ba9755",
+        "status": "Cancelled",
+        "appointment_time": "2023-08-27T17:58:31.162Z",
+        "service_type": "Haircut and Styling",
+        "created_at": "2023-08-27T15:11:51.476Z",
+        "updated_at": "2023-08-27T08:10:57.749Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "b1763a25-9f90-48b7-9dcc-7592e7397e5c",
+        "status": "Rescheduled",
+        "appointment_time": "2023-08-27T14:20:25.467Z",
+        "service_type": "Legal Advice",
+        "created_at": "2023-08-27T18:28:33.396Z",
+        "updated_at": "2023-08-27T09:46:46.327Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "7c5fd42e-675c-4500-8f15-d7231b9ec71e",
+        "status": "Completed",
+        "appointment_time": "2023-08-27T18:03:37.912Z",
+        "service_type": "Massage Therapy",
+        "created_at": "2023-08-28T04:45:40.096Z",
+        "updated_at": "2023-08-27T18:49:38.524Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "7acda0e8-2e69-48d3-82b3-34cbac1bd896",
+        "status": "No Show",
+        "appointment_time": "2023-08-27T21:51:30.852Z",
+        "service_type": "Dental Check-up",
+        "created_at": "2023-08-28T05:00:12.938Z",
+        "updated_at": "2023-08-28T05:03:56.324Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "af9498b6-e379-4472-86d9-5d572782bd41",
+        "email": "Lizzie.Stehr92@yahoo.com",
+        "firstName": "Armando",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35782852",
+        "tenantId": null
+      },
+      {
+        "reference": "9de9b417-5167-4841-b68b-dce3e4f37dac",
+        "email": "Brandyn.Nitzsche@gmail.com",
+        "firstName": "Lindsay",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88458722",
+        "tenantId": null
+      },
+      {
+        "reference": "d3e2247e-e4fc-4911-9e67-81861894b092",
+        "email": "Rosetta.Kemmer16@gmail.com",
+        "firstName": "Ashly",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/109.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b1a76d37-9ddf-4c82-a07e-91308e68050b",
+        "email": "Harvey.Shanahan59@gmail.com",
+        "firstName": "Selmer",
+        "lastName": "Hahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10554946",
+        "tenantId": null
+      },
+      {
+        "reference": "4718425d-b12d-4cbc-b5cc-18866e2463e7",
+        "email": "Jameson_Runolfsson@gmail.com",
+        "firstName": "Taryn",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70127202",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "a69ab9e0-5c1c-4669-b03e-c70b5c5d70d4",
+        "amount": 54352,
+        "transaction_date": "2023-08-28T01:51:06.094Z",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-28T00:41:14.332Z",
+        "updated_at": "2023-08-27T21:55:27.585Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "aa6ddc25-a4dc-468f-a535-a9c2e8abf1be",
+        "amount": 20143,
+        "transaction_date": "2023-08-27T14:58:15.606Z",
+        "transaction_type": "Payment",
+        "created_at": "2023-08-27T08:16:16.284Z",
+        "updated_at": "2023-08-27T07:27:58.766Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "99f79bdb-1ff0-4dc4-bd64-da14f7610dcd",
+        "amount": 34825,
+        "transaction_date": "2023-08-27T11:13:11.705Z",
+        "transaction_type": "Refund",
+        "created_at": "2023-08-27T19:17:04.185Z",
+        "updated_at": "2023-08-28T01:39:18.420Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "acf66f09-9fce-4fc0-9a55-14ceebfe19ca",
+        "amount": 2894,
+        "transaction_date": "2023-08-27T17:37:34.569Z",
+        "transaction_type": "Transfer",
+        "created_at": "2023-08-27T23:59:54.973Z",
+        "updated_at": "2023-08-27T09:53:28.190Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c5daa8c9-6d8c-4ff3-a907-270f0dd11590",
+        "amount": 89471,
+        "transaction_date": "2023-08-27T12:06:14.428Z",
+        "transaction_type": "Withdrawal",
+        "created_at": "2023-08-27T17:03:24.352Z",
+        "updated_at": "2023-08-27T16:58:33.973Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "71862f21-0c8b-4eb0-af76-81caebe9d3e2",
+        "name": "Complete Project Report",
+        "description": "Compile all project data and create a comprehensive report",
+        "status": "Pending",
+        "start_time": "2023-08-27T21:55:20.995Z",
+        "end_time": "2023-08-28T05:02:17.718Z",
+        "created_at": "2023-08-27T14:45:11.140Z",
+        "updated_at": "2023-08-27T13:09:09.046Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "4b3c334e-b573-442a-a1ca-d0ea23697dd9",
+        "name": "Prepare Presentation",
+        "description": "Create a visually appealing presentation for client meeting",
+        "status": "In Progress",
+        "start_time": "2023-08-27T20:04:40.043Z",
+        "end_time": "2023-08-28T03:34:42.777Z",
+        "created_at": "2023-08-28T05:17:40.631Z",
+        "updated_at": "2023-08-27T09:34:53.311Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "02cfacdc-974b-4b33-9101-2cdf780a6976",
+        "name": "Review Contracts",
+        "description": "Thoroughly review all contract terms and conditions",
+        "status": "Completed",
+        "start_time": "2023-08-27T20:35:54.130Z",
+        "end_time": "2023-08-27T23:51:06.939Z",
+        "created_at": "2023-08-27T09:40:00.390Z",
+        "updated_at": "2023-08-27T17:41:36.582Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "c86b6790-6e08-45ac-8ce7-c030e2401509",
+        "name": "Organize Team Meeting",
+        "description": "Schedule and coordinate a team meeting to discuss project updates",
+        "status": "On Hold",
+        "start_time": "2023-08-27T07:44:37.316Z",
+        "end_time": "2023-08-27T09:44:15.155Z",
+        "created_at": "2023-08-28T00:49:07.992Z",
+        "updated_at": "2023-08-27T19:48:06.612Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "a7f4c68b-d565-45eb-9c09-8b759d44fc36",
+        "name": "Update Website Content",
+        "description": "Update website content with latest information and news",
+        "status": "Cancelled",
+        "start_time": "2023-08-27T14:32:36.967Z",
+        "end_time": "2023-08-28T06:04:36.792Z",
+        "created_at": "2023-08-27T21:30:40.726Z",
+        "updated_at": "2023-08-27T15:29:21.190Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "58ab3f5e-0d5b-4207-82ea-5bd05ff959ef",
+        "start_time": "2023-08-28T01:46:42.407Z",
+        "end_time": "2023-08-27T20:14:50.088Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-27T07:58:26.122Z",
+        "updated_at": "2023-08-27T07:50:06.550Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "4a95b078-8dd8-496a-bd5a-faa4eebbb70e",
+        "start_time": "2023-08-28T04:27:54.676Z",
+        "end_time": "2023-08-28T00:00:24.068Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-27T07:15:19.620Z",
+        "updated_at": "2023-08-27T11:04:21.231Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "92218c5b-a9cf-497f-abb8-e500f8d73336",
+        "start_time": "2023-08-27T14:27:27.482Z",
+        "end_time": "2023-08-27T15:51:11.868Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-27T08:54:19.863Z",
+        "updated_at": "2023-08-27T15:27:18.654Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "895d06b2-fdb5-43e9-ad56-90db25d2e7f3",
+        "start_time": "2023-08-27T14:21:27.559Z",
+        "end_time": "2023-08-28T03:28:05.991Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-27T17:45:51.733Z",
+        "updated_at": "2023-08-27T19:03:33.494Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "713dc777-daef-413b-8975-afc7efdfeaa2",
+        "start_time": "2023-08-27T13:54:03.739Z",
+        "end_time": "2023-08-27T23:52:16.245Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-28T04:59:20.388Z",
+        "updated_at": "2023-08-27T13:59:25.402Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "3dbfb7fc-c703-4867-a898-27f1350f05de",
+        "status": "Confirmed",
+        "appointment_time": "2023-08-28T04:52:54.692Z",
+        "service_type": "Medical Check-up",
+        "created_at": "2023-08-27T21:02:01.569Z",
+        "updated_at": "2023-08-27T14:54:43.566Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "ab91d901-e3ee-4edc-8b8d-24d009e4799e",
+        "status": "Cancelled",
+        "appointment_time": "2023-08-27T07:51:07.506Z",
+        "service_type": "Dental Cleaning",
+        "created_at": "2023-08-28T02:13:04.053Z",
+        "updated_at": "2023-08-27T23:21:52.139Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "512f8c7f-3168-4669-8977-c2eec2f1917a",
+        "status": "Rescheduled",
+        "appointment_time": "2023-08-27T16:44:12.420Z",
+        "service_type": "Haircut",
+        "created_at": "2023-08-27T20:55:58.660Z",
+        "updated_at": "2023-08-27T22:28:26.498Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "622c22a0-5d1a-4373-a330-31c39e1ec232",
+        "status": "Completed",
+        "appointment_time": "2023-08-27T21:04:44.874Z",
+        "service_type": "Massage Therapy",
+        "created_at": "2023-08-27T19:06:18.871Z",
+        "updated_at": "2023-08-27T19:58:16.669Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "6b6467bb-264d-4d57-91ad-f347782c9610",
+        "status": "No Show",
+        "appointment_time": "2023-08-27T15:00:01.087Z",
+        "service_type": "Fitness Training",
+        "created_at": "2023-08-27T16:47:59.162Z",
+        "updated_at": "2023-08-28T00:38:22.612Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "10296b11-e8ad-4a00-9fb6-d681d09d8885",
+        "email": "Naomie_Rutherford83@yahoo.com",
+        "firstName": "Dayna",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29659221",
+        "tenantId": null
+      },
+      {
+        "reference": "7888b84a-ebab-44d1-b396-e2563ee0bc4a",
+        "email": "Adrian2@gmail.com",
+        "firstName": "Judy",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/876.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4af0ddb6-5c76-483c-b697-afbd2b21d3a8",
+        "email": "Toby_Hirthe61@yahoo.com",
+        "firstName": "Jovany",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23326045",
+        "tenantId": null
+      },
+      {
+        "reference": "aeddea44-be54-4d27-b920-81d7b5d2536e",
+        "email": "Ronny95@hotmail.com",
+        "firstName": "Kameron",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94610372",
+        "tenantId": null
+      },
+      {
+        "reference": "c5b42cdc-9627-4430-9a33-34251a6a7178",
+        "email": "Marshall.Zieme5@hotmail.com",
+        "firstName": "Lue",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1178.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "191da502-b027-4b9c-abb0-3afdfc822e40",
+        "amount": 17034,
+        "transaction_date": "2023-08-28T06:39:30.819Z",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-28T00:39:08.636Z",
+        "updated_at": "2023-08-27T22:35:41.363Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "65298aa6-c98a-4922-b6b6-7069872f629a",
+        "amount": 43350,
+        "transaction_date": "2023-08-28T01:45:11.111Z",
+        "transaction_type": "Payment",
+        "created_at": "2023-08-28T03:22:09.426Z",
+        "updated_at": "2023-08-28T03:23:25.844Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6f3ab73a-a7ea-4e71-9dd0-f104d1fd1782",
+        "amount": 53786,
+        "transaction_date": "2023-08-27T22:47:28.352Z",
+        "transaction_type": "Transfer",
+        "created_at": "2023-08-28T06:41:06.014Z",
+        "updated_at": "2023-08-28T05:10:28.859Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8096c4ed-0acb-4c42-8d10-25702d1b3041",
+        "amount": 90919,
+        "transaction_date": "2023-08-27T10:02:07.618Z",
+        "transaction_type": "Refund",
+        "created_at": "2023-08-27T16:48:25.489Z",
+        "updated_at": "2023-08-28T05:05:25.561Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3a7cd7c6-6993-4567-ad9c-69886ee124cc",
+        "amount": 88752,
+        "transaction_date": "2023-08-28T06:26:27.270Z",
+        "transaction_type": "Withdrawal",
+        "created_at": "2023-08-28T02:49:38.722Z",
+        "updated_at": "2023-08-28T05:48:28.857Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "1b855786-75eb-4fa5-b1e5-69680e0fdd60",
+        "name": "Complete Project Report",
+        "description": "Create a detailed report summarizing the project progress",
+        "status": "Pending",
+        "start_time": "2023-08-27T18:09:28.095Z",
+        "end_time": "2023-08-27T14:06:09.514Z",
+        "created_at": "2023-08-28T06:30:12.981Z",
+        "updated_at": "2023-08-27T19:58:34.853Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "0ef0e024-f40d-4f4b-a361-8c038b872049",
+        "name": "Prepare Presentation",
+        "description": "Create a visually appealing presentation for the client meeting",
+        "status": "In Progress",
+        "start_time": "2023-08-27T20:56:23.242Z",
+        "end_time": "2023-08-27T15:30:51.338Z",
+        "created_at": "2023-08-28T05:38:13.625Z",
+        "updated_at": "2023-08-27T22:00:08.534Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "048dd477-b011-4c9c-aca0-6ecb15692223",
+        "name": "Review Contracts",
+        "description": "Review legal contracts and highlight key terms and conditions",
+        "status": "Completed",
+        "start_time": "2023-08-28T05:57:12.811Z",
+        "end_time": "2023-08-27T12:40:16.976Z",
+        "created_at": "2023-08-27T23:17:40.484Z",
+        "updated_at": "2023-08-27T11:12:45.233Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "92ac6acc-2411-43b9-a989-b6334ef187ab",
+        "name": "Update Website Content",
+        "description": "Update website content to reflect latest products and services",
+        "status": "On Hold",
+        "start_time": "2023-08-28T00:22:57.514Z",
+        "end_time": "2023-08-27T23:27:35.381Z",
+        "created_at": "2023-08-27T14:45:38.894Z",
+        "updated_at": "2023-08-28T01:46:56.843Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "4701b8e6-82ad-4be6-afce-cc149d27e5bd",
+        "name": "Organize Team Meeting",
+        "description": "Schedule and coordinate a team meeting to discuss project updates",
+        "status": "Cancelled",
+        "start_time": "2023-08-27T12:25:06.508Z",
+        "end_time": "2023-08-27T23:23:37.775Z",
+        "created_at": "2023-08-27T15:27:02.286Z",
+        "updated_at": "2023-08-27T18:05:44.188Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "ae183ee3-8be3-4260-9162-70bda46a047e",
+        "start_time": "2023-08-27T10:22:22.094Z",
+        "end_time": "2023-08-27T19:52:16.605Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-27T14:12:17.623Z",
+        "updated_at": "2023-08-27T14:02:37.631Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "34e4bfc4-4bc3-4d89-835e-acf2c72b398f",
+        "start_time": "2023-08-27T14:02:26.433Z",
+        "end_time": "2023-08-27T18:36:36.860Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-27T13:07:40.177Z",
+        "updated_at": "2023-08-28T02:15:21.851Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "7a92cc1b-4ee8-44f7-9e0f-8808de0a174d",
+        "start_time": "2023-08-27T14:14:13.846Z",
+        "end_time": "2023-08-27T12:33:54.949Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-27T15:07:23.326Z",
+        "updated_at": "2023-08-27T21:03:16.625Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "cf3ea4b1-921d-4a03-86ad-53952b1c5bcc",
+        "start_time": "2023-08-28T04:15:09.763Z",
+        "end_time": "2023-08-27T19:12:43.231Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-28T04:52:24.211Z",
+        "updated_at": "2023-08-28T05:08:12.412Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "4879a5e2-8dc6-47d4-b441-b904209d74d4",
+        "start_time": "2023-08-28T05:26:48.012Z",
+        "end_time": "2023-08-27T16:38:47.414Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-27T19:02:40.264Z",
+        "updated_at": "2023-08-27T12:33:23.789Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "1076e232-5739-43b5-84d3-720ad78cc069",
+        "status": "Confirmed",
+        "appointment_time": "2023-08-28T05:17:04.260Z",
+        "service_type": "Consultation",
+        "created_at": "2023-08-27T19:48:20.589Z",
+        "updated_at": "2023-08-28T02:16:27.505Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "73727baa-8f60-460f-a0fa-d2d95cdd3a85",
+        "status": "Cancelled",
+        "appointment_time": "2023-08-27T23:11:32.722Z",
+        "service_type": "Treatment",
+        "created_at": "2023-08-27T12:40:27.277Z",
+        "updated_at": "2023-08-27T18:08:12.517Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "46f1919d-9d6b-4532-a2ee-5448cd0a0379",
+        "status": "Rescheduled",
+        "appointment_time": "2023-08-27T19:02:13.446Z",
+        "service_type": "Check-up",
+        "created_at": "2023-08-27T22:24:45.063Z",
+        "updated_at": "2023-08-27T14:53:42.529Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "cd677d02-c178-4456-ae07-bbc824c08852",
+        "status": "No Show",
+        "appointment_time": "2023-08-27T14:41:25.697Z",
+        "service_type": "Therapy",
+        "created_at": "2023-08-28T00:33:24.475Z",
+        "updated_at": "2023-08-27T20:50:49.261Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "d53bb483-3ae1-4402-9963-5739d7a1ace0",
+        "status": "Completed",
+        "appointment_time": "2023-08-27T12:23:17.343Z",
+        "service_type": "Diagnostic",
+        "created_at": "2023-08-27T13:52:29.684Z",
+        "updated_at": "2023-08-27T09:45:16.313Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a7b77e91-cf60-442a-8468-3fe0b7748209",
+        "email": "Al_Ruecker@gmail.com",
+        "firstName": "Greyson",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1091.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c9db3688-cc0c-4b68-893c-e8fe46b3a8ce",
+        "email": "Frederic_Marquardt@gmail.com",
+        "firstName": "Margot",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13950618",
+        "tenantId": null
+      },
+      {
+        "reference": "91b5c0d2-5319-4305-99cb-ebe60998ae93",
+        "email": "Kelton95@hotmail.com",
+        "firstName": "Nicklaus",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/987.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "047ce59c-c62b-4115-bd36-ae49e26711cb",
+        "email": "Lyric_Tillman82@yahoo.com",
+        "firstName": "Mckayla",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47837360",
+        "tenantId": null
+      },
+      {
+        "reference": "39e9f569-7422-4fdc-9afd-916cdb5f7fab",
+        "email": "Leora.Kshlerin19@hotmail.com",
+        "firstName": "Kailee",
+        "lastName": "Jaskolski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/605.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "625fba60-f643-4ce7-89d8-12221b96f7ae",
+        "amount": 22024,
+        "transaction_date": "2023-08-27T13:46:39.484Z",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-28T05:23:05.622Z",
+        "updated_at": "2023-08-27T18:49:58.595Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3d53948c-2c91-45fd-af8d-f5c3500e6073",
+        "amount": 55422,
+        "transaction_date": "2023-08-27T14:01:33.233Z",
+        "transaction_type": "Payment",
+        "created_at": "2023-08-27T13:12:28.690Z",
+        "updated_at": "2023-08-27T21:04:13.301Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a4d79341-78eb-48ab-b76c-e5da4b572df9",
+        "amount": 56549,
+        "transaction_date": "2023-08-27T17:29:03.664Z",
+        "transaction_type": "Refund",
+        "created_at": "2023-08-27T14:04:40.642Z",
+        "updated_at": "2023-08-28T00:26:19.708Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "047b2251-1f9c-40d3-be03-88ca1e587341",
+        "amount": 22442,
+        "transaction_date": "2023-08-28T03:35:29.054Z",
+        "transaction_type": "Transfer",
+        "created_at": "2023-08-27T22:01:56.438Z",
+        "updated_at": "2023-08-27T16:55:44.778Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "14d0b6d1-9c35-4b7f-b540-b6d7a091702a",
+        "amount": 14376,
+        "transaction_date": "2023-08-28T03:38:43.891Z",
+        "transaction_type": "Deposit",
+        "created_at": "2023-08-28T01:43:00.021Z",
+        "updated_at": "2023-08-27T22:49:14.873Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "d6c98288-5d8f-4e60-870d-6b0239c4ca11",
+        "name": "Complete project report",
+        "description": "Create a detailed report outlining project progress",
+        "status": "Pending",
+        "start_time": "2023-08-27T12:13:28.520Z",
+        "end_time": "2023-08-28T00:31:13.294Z",
+        "created_at": "2023-08-28T04:54:02.933Z",
+        "updated_at": "2023-08-28T04:21:49.336Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "a65b5014-7200-42dd-89fa-2d4c2d681d48",
+        "name": "Schedule team meeting",
+        "description": "Coordinate a meeting with all team members",
+        "status": "In Progress",
+        "start_time": "2023-08-27T10:46:07.821Z",
+        "end_time": "2023-08-27T20:40:04.547Z",
+        "created_at": "2023-08-28T02:34:59.588Z",
+        "updated_at": "2023-08-28T01:14:41.045Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "fda60b94-4084-49b3-9ad0-77dfe9b093e2",
+        "name": "Review marketing campaign",
+        "description": "Evaluate the effectiveness of the marketing campaign",
+        "status": "Completed",
+        "start_time": "2023-08-27T10:07:13.895Z",
+        "end_time": "2023-08-28T03:35:39.454Z",
+        "created_at": "2023-08-27T23:04:54.398Z",
+        "updated_at": "2023-08-28T03:49:02.728Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "97411711-0efa-454e-a8d2-a01094221b85",
+        "name": "Prepare budget proposal",
+        "description": "Develop a budget proposal for the upcoming fiscal year",
+        "status": "On Hold",
+        "start_time": "2023-08-27T22:30:07.628Z",
+        "end_time": "2023-08-27T11:00:20.221Z",
+        "created_at": "2023-08-27T22:19:10.520Z",
+        "updated_at": "2023-08-27T11:51:52.106Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "fe021d7e-f918-4756-8484-78df45c85b25",
+        "name": "Update website content",
+        "description": "Edit and update the content on the website",
+        "status": "Cancelled",
+        "start_time": "2023-08-27T14:21:34.210Z",
+        "end_time": "2023-08-27T11:15:56.072Z",
+        "created_at": "2023-08-27T18:31:11.769Z",
+        "updated_at": "2023-08-28T01:40:06.207Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "3a61122f-fdb0-4fde-b363-ddc41b13b3d4",
+        "start_time": "2023-08-27T17:07:02.439Z",
+        "end_time": "2023-08-27T19:05:35.275Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-27T20:44:23.317Z",
+        "updated_at": "2023-08-27T19:37:02.784Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "7351b23a-eb11-4894-88f9-6730cddda259",
+        "start_time": "2023-08-27T18:56:34.034Z",
+        "end_time": "2023-08-27T10:59:22.080Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-27T11:38:08.811Z",
+        "updated_at": "2023-08-27T14:59:14.030Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "b1344224-8c8a-46b7-ae40-a7ed5da0f46f",
+        "start_time": "2023-08-28T02:18:10.621Z",
+        "end_time": "2023-08-27T21:25:18.662Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-28T00:27:50.814Z",
+        "updated_at": "2023-08-27T13:10:53.290Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "484c72a5-62ea-4ef5-adf1-abba65902c7c",
+        "start_time": "2023-08-27T08:39:36.114Z",
+        "end_time": "2023-08-27T22:39:41.661Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-28T03:03:29.540Z",
+        "updated_at": "2023-08-27T11:54:30.706Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "2bc47bcb-814b-4bc3-8f53-d4fcf0ea3147",
+        "start_time": "2023-08-27T13:15:45.379Z",
+        "end_time": "2023-08-27T07:55:23.022Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-27T14:34:24.588Z",
+        "updated_at": "2023-08-27T08:15:50.050Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "779aad6f-ff3f-4ff1-8421-638090874a18",
+        "status": "Confirmed",
+        "appointment_time": "2023-08-27T10:43:51.446Z",
+        "service_type": "Haircut",
+        "created_at": "2023-08-28T04:32:21.476Z",
+        "updated_at": "2023-08-27T11:25:25.723Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "a77348fd-82bb-427f-8dc1-e740eae7f63f",
+        "status": "Cancelled",
+        "appointment_time": "2023-08-27T19:42:18.017Z",
+        "service_type": "Massage",
+        "created_at": "2023-08-28T01:26:47.930Z",
+        "updated_at": "2023-08-27T11:07:49.764Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "b44c11ea-1a99-41c7-9e89-adb62184984e",
+        "status": "Rescheduled",
+        "appointment_time": "2023-08-28T03:02:26.618Z",
+        "service_type": "Dental Check-up",
+        "created_at": "2023-08-27T23:34:35.176Z",
+        "updated_at": "2023-08-28T03:57:47.348Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "de53145b-1b3d-4339-8595-4cbdda480ef3",
+        "status": "No Show",
+        "appointment_time": "2023-08-28T01:12:29.491Z",
+        "service_type": "Physical Therapy",
+        "created_at": "2023-08-28T02:55:59.930Z",
+        "updated_at": "2023-08-27T23:50:01.682Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "8b9fa9f8-fd14-47df-8b40-09dfa1bf8927",
+        "status": "Completed",
+        "appointment_time": "2023-08-28T04:04:11.836Z",
+        "service_type": "Acupuncture",
+        "created_at": "2023-08-27T22:51:50.133Z",
+        "updated_at": "2023-08-27T17:15:58.151Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1416479e-7fa1-4bc4-9d5c-ea2743bb00b6",
+        "email": "Tyrique.Toy@hotmail.com",
+        "firstName": "Sharon",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/511.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "55b79722-6e81-42b3-8e2d-4338e8230ac3",
+        "email": "Lemuel.Rice73@gmail.com",
+        "firstName": "Jeremy",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98146876",
+        "tenantId": null
+      },
+      {
+        "reference": "eacdd47a-b3b9-42f3-8287-51a1a6d6d99b",
+        "email": "Katlyn.Weimann@hotmail.com",
+        "firstName": "Griffin",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/299.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d7591731-8a2d-4b12-9cc1-3fb5fc187327",
+        "email": "Howell.Beer@yahoo.com",
+        "firstName": "Jaydon",
+        "lastName": "Gottlieb",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21761891",
+        "tenantId": null
+      },
+      {
+        "reference": "b06149d8-e16b-4c01-93e8-066693017a2e",
+        "email": "Nat42@hotmail.com",
+        "firstName": "Liza",
+        "lastName": "Harber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/475.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "c2e64b9b-fcd8-4455-a8a9-20f28539c1f0",
+        "amount": 43649,
+        "transaction_date": "2023-08-27T21:54:31.051Z",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-28T00:41:36.294Z",
+        "updated_at": "2023-08-28T00:51:37.958Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "01915602-5825-422a-b1c1-0f0137db362b",
+        "amount": 30571,
+        "transaction_date": "2023-08-28T04:34:46.450Z",
+        "transaction_type": "Payment",
+        "created_at": "2023-08-28T05:31:29.650Z",
+        "updated_at": "2023-08-27T11:58:39.844Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fb79144c-dd29-45f3-a80e-46dbc93a9789",
+        "amount": 89117,
+        "transaction_date": "2023-08-27T13:55:38.792Z",
+        "transaction_type": "Refund",
+        "created_at": "2023-08-28T00:47:07.062Z",
+        "updated_at": "2023-08-27T07:19:12.184Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a7157225-7369-4cc9-bf4b-88812c1bc1d9",
+        "amount": 16866,
+        "transaction_date": "2023-08-27T16:49:28.382Z",
+        "transaction_type": "Transfer",
+        "created_at": "2023-08-27T10:38:04.168Z",
+        "updated_at": "2023-08-28T04:08:50.974Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d4692033-0a52-464c-a9d0-e1e7b92d5e1e",
+        "amount": 61186,
+        "transaction_date": "2023-08-28T01:10:32.446Z",
+        "transaction_type": "Withdrawal",
+        "created_at": "2023-08-27T23:15:36.744Z",
+        "updated_at": "2023-08-27T15:20:57.532Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "75b765a0-2641-470f-8e89-28286f5b27c3",
+        "name": "Complete project report",
+        "description": "A detailed analysis of market trends and competitor analysis",
+        "status": "Pending",
+        "start_time": "2023-08-27T17:54:32.174Z",
+        "end_time": "2023-08-27T18:34:23.226Z",
+        "created_at": "2023-08-28T00:16:16.312Z",
+        "updated_at": "2023-08-28T02:48:58.596Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "c67e9609-1523-4b39-9556-d777d64bb625",
+        "name": "Prepare presentation slides",
+        "description": "Create visually appealing slides with relevant content",
+        "status": "In Progress",
+        "start_time": "2023-08-27T23:02:51.497Z",
+        "end_time": "2023-08-27T10:48:28.115Z",
+        "created_at": "2023-08-27T07:15:37.387Z",
+        "updated_at": "2023-08-28T00:31:53.255Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "48071b58-d86c-4a19-85d7-b7572e8c2719",
+        "name": "Review marketing campaign",
+        "description": "Evaluate the effectiveness of the campaign and suggest improvements",
+        "status": "Completed",
+        "start_time": "2023-08-28T06:47:13.269Z",
+        "end_time": "2023-08-27T16:34:45.462Z",
+        "created_at": "2023-08-27T12:06:18.594Z",
+        "updated_at": "2023-08-28T00:17:09.651Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "5d97499e-9672-4b64-9016-1452085a1e1b",
+        "name": "Update website content",
+        "description": "Ensure website content is up-to-date and accurate",
+        "status": "On Hold",
+        "start_time": "2023-08-27T10:52:43.435Z",
+        "end_time": "2023-08-28T04:37:37.005Z",
+        "created_at": "2023-08-28T03:04:36.237Z",
+        "updated_at": "2023-08-28T02:52:48.291Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "093752bd-3721-4044-afd4-d1f29afb2cf9",
+        "name": "Organize team meeting",
+        "description": "Plan and coordinate a productive team meeting",
+        "status": "Cancelled",
+        "start_time": "2023-08-27T10:03:10.178Z",
+        "end_time": "2023-08-27T11:23:55.601Z",
+        "created_at": "2023-08-28T02:17:13.854Z",
+        "updated_at": "2023-08-27T13:54:01.489Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "ed4e8554-c87b-4c2f-84f6-c22e4e849e26",
+        "start_time": "2023-08-28T00:25:40.479Z",
+        "end_time": "2023-08-27T17:42:21.428Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-28T04:35:09.818Z",
+        "updated_at": "2023-08-27T15:04:11.378Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "7c3be520-1f2c-4a7b-8b34-1015fcb13d9a",
+        "start_time": "2023-08-27T19:24:45.793Z",
+        "end_time": "2023-08-27T15:21:47.023Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-28T06:12:37.083Z",
+        "updated_at": "2023-08-27T07:55:53.880Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "dd7c6071-81e2-43ef-91c3-daf8d82f9014",
+        "start_time": "2023-08-28T04:09:35.980Z",
+        "end_time": "2023-08-28T04:54:29.421Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-27T19:37:35.454Z",
+        "updated_at": "2023-08-28T00:08:04.548Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "0ab98ed8-94dc-4a20-8959-724b342f6343",
+        "start_time": "2023-08-27T10:46:13.457Z",
+        "end_time": "2023-08-27T14:09:16.789Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-27T16:34:06.083Z",
+        "updated_at": "2023-08-27T07:30:35.860Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "bb85f7e2-26fb-4640-98ef-ac2a960145b0",
+        "start_time": "2023-08-27T14:45:07.966Z",
+        "end_time": "2023-08-27T20:05:37.655Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-27T23:27:26.255Z",
+        "updated_at": "2023-08-28T01:04:41.729Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "bc4e5038-73d6-4995-bdfa-7ab020f81afd",
+        "status": "Confirmed",
+        "appointment_time": "2023-08-27T20:03:52.057Z",
+        "service_type": "Medical Check-up",
+        "created_at": "2023-08-27T18:39:35.978Z",
+        "updated_at": "2023-08-27T11:29:25.481Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "3c4bc2bf-0fe6-4197-9011-830d86941e36",
+        "status": "Cancelled",
+        "appointment_time": "2023-08-28T02:52:46.556Z",
+        "service_type": "Dental Cleaning",
+        "created_at": "2023-08-27T15:56:18.566Z",
+        "updated_at": "2023-08-28T03:51:09.375Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "ddb4248e-28df-42d3-a4cd-7a938ff2d560",
+        "status": "Rescheduled",
+        "appointment_time": "2023-08-28T06:24:56.843Z",
+        "service_type": "Massage Therapy",
+        "created_at": "2023-08-27T23:41:57.655Z",
+        "updated_at": "2023-08-28T01:31:13.514Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "112ca6f5-923f-42e7-a132-be1a2d9b5509",
+        "status": "Pending",
+        "appointment_time": "2023-08-28T04:55:59.582Z",
+        "service_type": "Haircut and Styling",
+        "created_at": "2023-08-28T06:16:16.335Z",
+        "updated_at": "2023-08-28T01:11:51.001Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "903dbc11-514f-4321-97ea-b3154272e8cf",
+        "status": "Completed",
+        "appointment_time": "2023-08-27T15:14:51.758Z",
+        "service_type": "Spa Treatment",
+        "created_at": "2023-08-28T04:03:01.457Z",
+        "updated_at": "2023-08-27T14:33:26.262Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2b6f5602-c0e3-48d8-b010-730f80fb9b64",
+        "email": "Julie2@gmail.com",
+        "firstName": "Maryse",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9497858",
+        "tenantId": null
+      },
+      {
+        "reference": "02e384a5-6b80-417b-909e-715f864087d9",
+        "email": "Oral_Barton66@yahoo.com",
+        "firstName": "Everette",
+        "lastName": "Zboncak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/967.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cb53359c-0bdb-40a6-823b-475cb1bc876b",
+        "email": "Deion.Carroll24@gmail.com",
+        "firstName": "Arno",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84944819",
+        "tenantId": null
+      },
+      {
+        "reference": "6375a9a4-0be2-4592-9151-b0b08590090e",
+        "email": "Faustino_Ondricka57@gmail.com",
+        "firstName": "Della",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36115774",
+        "tenantId": null
+      },
+      {
+        "reference": "dc356d8a-f046-48f8-953f-cf9ee2b4b60d",
+        "email": "Corine64@hotmail.com",
+        "firstName": "Sylvia",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33382124",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "e0979f11-ef31-44ae-a79d-2a3a05dd2bb3",
+        "amount": 29649,
+        "transaction_date": "2023-08-27T21:47:43.754Z",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-27T11:25:22.880Z",
+        "updated_at": "2023-08-27T08:40:16.420Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d748e675-bb2b-4de7-ad83-f471f19a93e0",
+        "amount": 57197,
+        "transaction_date": "2023-08-27T08:37:44.027Z",
+        "transaction_type": "Payment",
+        "created_at": "2023-08-27T23:24:02.924Z",
+        "updated_at": "2023-08-28T01:47:02.617Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6784e2cd-8f94-414d-9239-2b14ad00d155",
+        "amount": 72635,
+        "transaction_date": "2023-08-27T12:37:12.110Z",
+        "transaction_type": "Refund",
+        "created_at": "2023-08-27T21:23:45.218Z",
+        "updated_at": "2023-08-27T19:18:36.743Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c9713ca8-d6ad-43e7-b134-f56e65f7f9cd",
+        "amount": 87037,
+        "transaction_date": "2023-08-28T06:55:54.811Z",
+        "transaction_type": "Transfer",
+        "created_at": "2023-08-28T02:31:17.358Z",
+        "updated_at": "2023-08-27T19:51:42.041Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cc158b0f-cc4a-4b47-af2d-1fb8e3ef5c28",
+        "amount": 31064,
+        "transaction_date": "2023-08-28T04:13:43.062Z",
+        "transaction_type": "Deposit",
+        "created_at": "2023-08-28T06:26:01.349Z",
+        "updated_at": "2023-08-28T06:33:02.644Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "589b4413-621c-46e6-b603-e1e489f1089c",
+        "name": "Complete Report",
+        "description": "Analyzing data and generating insights",
+        "status": "Pending",
+        "start_time": "2023-08-27T19:07:29.118Z",
+        "end_time": "2023-08-28T03:05:11.579Z",
+        "created_at": "2023-08-28T03:07:04.716Z",
+        "updated_at": "2023-08-28T01:42:12.110Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "96b9d62c-04e8-4dfa-b48a-e78b4b15b19c",
+        "name": "Schedule Meeting",
+        "description": "Coordinating with team members for project updates",
+        "status": "In Progress",
+        "start_time": "2023-08-27T07:23:44.406Z",
+        "end_time": "2023-08-27T17:33:05.794Z",
+        "created_at": "2023-08-27T14:54:02.511Z",
+        "updated_at": "2023-08-27T14:25:46.001Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "fc764a3b-02bb-4b39-94b1-8cac6f76cbe0",
+        "name": "Prepare Presentation",
+        "description": "Creating visually appealing slides for client presentation",
+        "status": "Completed",
+        "start_time": "2023-08-27T15:50:40.941Z",
+        "end_time": "2023-08-28T00:40:53.723Z",
+        "created_at": "2023-08-27T08:33:19.480Z",
+        "updated_at": "2023-08-27T14:29:23.468Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "bd2ccfe0-2ae7-496d-a8e3-d5c71d1c48b9",
+        "name": "Review Documents",
+        "description": "Thoroughly examining legal contracts and agreements",
+        "status": "On Hold",
+        "start_time": "2023-08-27T07:25:20.449Z",
+        "end_time": "2023-08-28T02:05:14.201Z",
+        "created_at": "2023-08-27T22:56:22.880Z",
+        "updated_at": "2023-08-27T09:27:57.014Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "72bf1744-2dfa-4689-9a78-44f8dab85b56",
+        "name": "Submit Proposal",
+        "description": "Compiling necessary documents and forms",
+        "status": "Cancelled",
+        "start_time": "2023-08-27T07:27:22.740Z",
+        "end_time": "2023-08-27T12:07:18.022Z",
+        "created_at": "2023-08-27T15:19:37.078Z",
+        "updated_at": "2023-08-27T16:16:08.228Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "fb3fd340-a6bc-41eb-ba0b-c2b95d05b06d",
+        "start_time": "2023-08-27T11:36:32.389Z",
+        "end_time": "2023-08-28T05:44:33.512Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-28T04:17:38.811Z",
+        "updated_at": "2023-08-27T09:17:40.155Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "ebb402d7-259b-4b3c-81d8-50df8c51bc61",
+        "start_time": "2023-08-27T20:49:16.519Z",
+        "end_time": "2023-08-28T02:26:11.441Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-27T16:41:38.458Z",
+        "updated_at": "2023-08-27T19:45:57.096Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "002903fe-e688-47ba-a937-0af0a1be5009",
+        "start_time": "2023-08-27T20:23:01.857Z",
+        "end_time": "2023-08-28T03:29:52.024Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-27T15:26:18.327Z",
+        "updated_at": "2023-08-27T14:11:39.606Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "b8e8246e-0eda-49f2-a7c1-513ac3ccca1d",
+        "start_time": "2023-08-27T14:58:20.560Z",
+        "end_time": "2023-08-27T17:46:53.125Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-27T17:38:55.815Z",
+        "updated_at": "2023-08-27T16:36:50.142Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "df6c5c89-f588-4307-b73d-7bf96260c9c8",
+        "start_time": "2023-08-28T03:28:20.114Z",
+        "end_time": "2023-08-27T10:54:01.834Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-27T16:40:06.878Z",
+        "updated_at": "2023-08-27T17:35:43.073Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "d48e764b-3e1d-4a76-98ca-dc680320c484",
+        "status": "Confirmed",
+        "appointment_time": "2023-08-27T09:13:23.962Z",
+        "service_type": "Consultation",
+        "created_at": "2023-08-27T17:11:27.558Z",
+        "updated_at": "2023-08-27T21:20:25.313Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "69e374d7-6d4a-457f-a146-6b0cd362bb3d",
+        "status": "Cancelled",
+        "appointment_time": "2023-08-27T15:06:42.328Z",
+        "service_type": "Treatment",
+        "created_at": "2023-08-27T18:11:15.754Z",
+        "updated_at": "2023-08-27T20:45:27.788Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "c0826d6b-2f27-485b-9d73-1434e19ee0d3",
+        "status": "Rescheduled",
+        "appointment_time": "2023-08-27T18:58:57.813Z",
+        "service_type": "Check-up",
+        "created_at": "2023-08-28T05:06:59.566Z",
+        "updated_at": "2023-08-27T23:55:37.620Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "61f6cf79-96dd-476c-b025-ad95e6e1d7b7",
+        "status": "Pending",
+        "appointment_time": "2023-08-27T20:25:59.738Z",
+        "service_type": "Therapy",
+        "created_at": "2023-08-27T15:46:18.358Z",
+        "updated_at": "2023-08-27T21:33:36.614Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "1604765c-5ec8-419f-afbc-d68a040dd89d",
+        "status": "Completed",
+        "appointment_time": "2023-08-28T01:00:51.402Z",
+        "service_type": "Examination",
+        "created_at": "2023-08-27T09:24:00.181Z",
+        "updated_at": "2023-08-27T09:24:27.008Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5f2cc25e-580d-4a88-aaf5-836f4d63fcb1",
+        "email": "Julia77@gmail.com",
+        "firstName": "Callie",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80737810",
+        "tenantId": null
+      },
+      {
+        "reference": "873da5ea-f128-4932-990b-2e092ca15d55",
+        "email": "Coy14@gmail.com",
+        "firstName": "Lavada",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/957.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "95c31da7-673b-41b5-9d11-536100d3f9af",
+        "email": "Raymond68@hotmail.com",
+        "firstName": "Merl",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87916559",
+        "tenantId": null
+      },
+      {
+        "reference": "d7552ef7-ebc0-45ee-9cac-ade9b1d35135",
+        "email": "Broderick99@yahoo.com",
+        "firstName": "Hellen",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40765612",
+        "tenantId": null
+      },
+      {
+        "reference": "276a5bd6-0bc0-4eea-a590-226595d5263a",
+        "email": "Sylvia23@yahoo.com",
+        "firstName": "Macie",
+        "lastName": "Legros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1501087",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "09c5bd7c-aa77-4da2-aea7-9cc904ad28c5",
+        "amount": 32029,
+        "transaction_date": "2023-08-27T13:16:11.689Z",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-28T06:01:39.012Z",
+        "updated_at": "2023-08-28T04:15:00.402Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d8dd84ca-8aeb-4289-8a84-533ef1ee6a75",
+        "amount": 62811,
+        "transaction_date": "2023-08-28T03:31:48.895Z",
+        "transaction_type": "Payment",
+        "created_at": "2023-08-27T16:10:33.329Z",
+        "updated_at": "2023-08-27T19:39:51.737Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "800e4b12-3bd2-4a81-abc4-2f6dc524b3eb",
+        "amount": 85276,
+        "transaction_date": "2023-08-28T04:13:02.224Z",
+        "transaction_type": "Refund",
+        "created_at": "2023-08-28T00:03:27.242Z",
+        "updated_at": "2023-08-28T02:59:27.185Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8928933b-dae8-4890-b79e-164f01065b89",
+        "amount": 46708,
+        "transaction_date": "2023-08-28T05:48:57.693Z",
+        "transaction_type": "Transfer",
+        "created_at": "2023-08-27T22:40:59.130Z",
+        "updated_at": "2023-08-28T01:51:08.037Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "22b2b92c-9af8-4f1c-9157-7060c1c68e0b",
+        "amount": 34187,
+        "transaction_date": "2023-08-27T13:39:47.416Z",
+        "transaction_type": "Withdrawal",
+        "created_at": "2023-08-27T12:47:22.591Z",
+        "updated_at": "2023-08-28T06:10:07.777Z",
+        "accountant_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "43bfa62f-3399-4440-b84b-6ef16e87a633",
+        "name": "Complete Report",
+        "description": "Create a detailed report on market analysis",
+        "status": "Pending",
+        "start_time": "2023-08-28T03:15:12.044Z",
+        "end_time": "2023-08-27T20:39:13.220Z",
+        "created_at": "2023-08-27T22:32:20.099Z",
+        "updated_at": "2023-08-27T23:41:05.707Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "56f98e79-045b-4366-89e9-082fa0ba9152",
+        "name": "Prepare Presentation",
+        "description": "Prepare a compelling presentation for the board meeting",
+        "status": "In Progress",
+        "start_time": "2023-08-27T22:23:03.199Z",
+        "end_time": "2023-08-27T18:52:27.328Z",
+        "created_at": "2023-08-27T11:39:13.108Z",
+        "updated_at": "2023-08-27T09:13:18.253Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "37586f2b-e3ae-4faa-ae2a-c27d9e92bf4e",
+        "name": "Review Documents",
+        "description": "Review legal documents for accuracy",
+        "status": "Completed",
+        "start_time": "2023-08-27T17:58:26.459Z",
+        "end_time": "2023-08-27T16:24:01.533Z",
+        "created_at": "2023-08-27T09:02:29.079Z",
+        "updated_at": "2023-08-27T12:29:48.365Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "ec44fcf9-e656-4451-9878-7d73edda395b",
+        "name": "Attend Meeting",
+        "description": "Attend a client meeting to discuss project requirements",
+        "status": "On Hold",
+        "start_time": "2023-08-27T09:26:02.227Z",
+        "end_time": "2023-08-27T17:27:19.502Z",
+        "created_at": "2023-08-28T02:57:19.941Z",
+        "updated_at": "2023-08-27T10:17:32.727Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "45be6f87-8952-4330-9aad-1ab6d3bcbcf4",
+        "name": "Submit Proposal",
+        "description": "Submit a proposal for a new business opportunity",
+        "status": "Cancelled",
+        "start_time": "2023-08-27T19:51:59.225Z",
+        "end_time": "2023-08-27T19:38:40.495Z",
+        "created_at": "2023-08-27T09:33:26.103Z",
+        "updated_at": "2023-08-28T05:24:24.270Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "48af99a0-4aac-4123-88c5-a95b1c92985b",
+        "start_time": "2023-08-27T07:53:27.462Z",
+        "end_time": "2023-08-28T03:35:41.186Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-27T18:22:15.807Z",
+        "updated_at": "2023-08-27T15:15:38.913Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "fbf627d1-0800-4517-abe5-8b2fb77d59bd",
+        "start_time": "2023-08-27T23:36:48.275Z",
+        "end_time": "2023-08-28T06:58:26.489Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-27T18:37:50.544Z",
+        "updated_at": "2023-08-27T11:20:42.155Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "a562c30d-eb5f-4226-8054-fa6c0251ac44",
+        "start_time": "2023-08-28T03:28:24.618Z",
+        "end_time": "2023-08-28T06:21:44.171Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-27T13:19:38.201Z",
+        "updated_at": "2023-08-27T18:11:30.732Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "43285edb-63aa-49cb-b44b-7b8b76ee536b",
+        "start_time": "2023-08-27T15:07:45.627Z",
+        "end_time": "2023-08-28T05:17:12.502Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-28T05:58:24.358Z",
+        "updated_at": "2023-08-28T06:13:29.972Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "43ab9b9f-6545-42e4-9977-d066701b38ef",
+        "start_time": "2023-08-27T19:17:11.052Z",
+        "end_time": "2023-08-28T02:04:42.390Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-28T00:20:53.038Z",
+        "updated_at": "2023-08-28T07:13:13.092Z",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "b30c1b90-f162-45a4-ae5d-0a74b7787105",
+        "status": "Confirmed",
+        "appointment_time": "2023-08-28T06:30:00.042Z",
+        "service_type": "Medical Check-up",
+        "created_at": "2023-08-27T15:13:38.293Z",
+        "updated_at": "2023-08-27T20:27:43.622Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "b179c5d2-7522-496a-b4d7-1e30ac677804",
+        "status": "Cancelled",
+        "appointment_time": "2023-08-28T06:06:34.359Z",
+        "service_type": "Dental Cleaning",
+        "created_at": "2023-08-27T11:53:30.690Z",
+        "updated_at": "2023-08-27T11:39:13.703Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "ea384da5-b25c-4aaf-89ce-e225da6dabd3",
+        "status": "Rescheduled",
+        "appointment_time": "2023-08-28T00:47:48.425Z",
+        "service_type": "Massage Therapy",
+        "created_at": "2023-08-27T19:07:41.311Z",
+        "updated_at": "2023-08-28T01:26:40.447Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "3769b5c0-56c1-4567-a534-33d9b4cfa2ab",
+        "status": "No Show",
+        "appointment_time": "2023-08-27T23:54:05.758Z",
+        "service_type": "Haircut",
+        "created_at": "2023-08-27T22:34:26.880Z",
+        "updated_at": "2023-08-28T04:19:40.805Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      },
+      {
+        "id": "92772531-5c36-4adc-824a-910e79016d51",
+        "status": "Completed",
+        "appointment_time": "2023-08-27T16:27:19.046Z",
+        "service_type": "Spa Treatment",
+        "created_at": "2023-08-27T09:21:01.569Z",
+        "updated_at": "2023-08-28T05:43:45.457Z",
+        "guest_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "staff_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "27ab6daf-5bcf-4bef-b343-36a8d2af04db",
+        "email": "Eveline55@hotmail.com",
+        "firstName": "Trevor",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33160228",
+        "tenantId": null
+      },
+      {
+        "reference": "6c871a8b-f3c8-4dd1-b81d-c96cd361a97a",
+        "email": "Solon.Gerlach80@hotmail.com",
+        "firstName": "Stefan",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1009.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ed8b8e8d-c5bf-4be5-a9aa-b6fa005735c4",
+        "email": "Maximilian84@gmail.com",
+        "firstName": "Lucio",
+        "lastName": "Waelchi",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33568588",
+        "tenantId": null
+      },
+      {
+        "reference": "7605b020-9239-49d0-b8de-8b83b8dfb419",
+        "email": "Melany_Emmerich3@yahoo.com",
+        "firstName": "Kenna",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35804427",
+        "tenantId": null
+      },
+      {
+        "reference": "4e1adbfc-2b97-4f63-928f-6e85122d8552",
+        "email": "Liliana.Cummerata4@hotmail.com",
+        "firstName": "Francesco",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/201.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
